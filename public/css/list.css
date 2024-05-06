@@ -1,0 +1,60 @@
+label {
+  font-weight: normal;
+}
+.panel-body .glyphicon-remove{
+  display: none;
+}
+.panel-body:hover .glyphicon-remove{
+  display: inline-block
+}
+.card {
+  margin-bottom: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+.card-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid #e0e0e0; 
+  border-radius: 3px;
+}
+
+.card-body {
+  background-color: #fff; 
+  color: #333; 
+  padding: 15px; 
+  font-size: 14px;
+}
+
+.card-body .row {
+  align-items: center; 
+}
+
+.card-body .badge {
+  width: 100%; 
+  display: block; 
+}
+
+.danger {
+  background-color: #f2dede;
+  color: #a94442;
+}
+
+.success {
+  background-color: #dff0d8;
+  color: #3c763d;
+}
+
+.badge-warning {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.badge-success {
+  background-color: #5cb85c;
+  color: white;
+}
+
+.delBtn {
+  font-size: 12px;
+}
